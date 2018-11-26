@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #e9f4ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.lv-head {
+  height: 50px;
+  border-bottom: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lv-head .logo {
+  font-size: 26px;
+  text-decoration: none;
+}
+.lv-head .head-r {
+  display: flex;
+  align-items: center;
+}
+.lv-head .head-r p {
+  margin-right: 10px;
+}
+
+.lv-main {
+  flex: 1;
+  display: flex;
+  background: white;
+}
+.lv-main .lv-menu {
+  width: 250px;
+  height: 100%;
+  overflow-y: auto;
+  border-right: 1px solid pink;
+}
+.lv-main .lv-menu a {
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.lv-main .main-r {
+  flex: 1;
+  padding: 20px 20px;
+}
+.lv-main .main-r .table-hover > tbody > tr:hover {
+  background-color: #d5e7fc;
+}
+.lv-main .main-r .pagination {
+  float: right;
+}
+.lv-main .main-r .search-bar {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.lv-main .main-r .search-bar .btn-primary {
+  height: 32px;
+  padding: 3px 10px;
+  margin-left: 10px;
+}
+.lv-main .main-r nav {
+  margin-top: 50px;
+}
+
+.lv-foot {
+  height: 50px;
+  border-top: 1px solid blue;
+}
+
+/*# sourceMappingURL=common.css.map */
